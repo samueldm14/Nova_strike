@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/ns2.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Nova Strike</title>
+</head>
+
+<body>
+
+
+    <!-- Nova strike -->
+    <div class="game-wrapper">
+
+        <!-- panneau gauche -->
+        <div class="sidebar">
+
+            <h1>NOVA STRIKE</h1>
+
+            <div class="logo-line">
+
+                <span class="logo-star">★</span>
+
+            </div>
+
+            <div class="info">
+                <p id="scoreText">Score : 0</p>
+
+                <p id="bestScoreText">
+                    Meilleur Score : 0
+                </p>
+
+                <p id="livesText">Vies : 3</p>
+
+                <p id="levelText">Niveau : 1</p>
+
+                <p id="difficultyText">
+                    Difficulté : medium
+                </p>
+            </div>
+
+            <div class="controls">
+
+                <h2>Contrôles</h2>
+
+                <p>← → = Déplacement</p>
+
+                <p>ESPACE = Tirer</p>
+
+                <p>1 = Facile</p>
+
+                <p>2 = Moyen</p>
+
+                <p>3 = Difficile</p>
+
+                <p>ENTRÉE = Rejouer</p>
+
+            </div>
+
+        </div>
+
+        <!-- zone jeu -->
+        <div class="game-container">
+
+            <button id="pauseBtn">
+                PAUSE
+            </button>
+
+            <canvas id="game"></canvas>
+
+        </div>
+
+    </div>
+
+    <!-- Contrôles mobile -->
+
+    <div class="mobile-controls">
+
+        <button id="leftBtn">◀</button>
+
+        <button id="shootBtn">🚀</button>
+
+        <button id="rightBtn">▶</button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
